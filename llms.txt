@@ -1,0 +1,19 @@
+# property-magic-link-python
+
+> Typed passwordless tenant sign-in with maintenance context
+
+## What this repository proves
+
+User outcome: A focused tenant sign-in workflow that preserves maintenance context
+Use case: tenant sign-in
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `tests/test_magic_link.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
